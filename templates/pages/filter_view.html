@@ -1,0 +1,14 @@
+{% for user in users_list %}
+    <ul>
+        <li style="list-style-type: square;">
+            <div class="row">
+                <div class="col-3" style="font-weight: bold">
+                    Details:
+                </div>
+                <div class="col-9" style="text-align: justify">
+                    {{ user.details }}
+                </div>
+            </div>
+        </li>
+    </ul>
+{% endfor %}
